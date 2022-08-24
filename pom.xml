@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bilgeadam</groupId>
+  <artifactId>BoostHibernateExample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>com.bilgeadam.HibernateExample</name>
+  
+  
+  <dependencies>
+
+  <!-- postgreSql-->
+  <dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>42.4.2</version>
+  </dependency>
+  
+  <!-- hibernate-->
+  
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.6.10.Final</version>
+</dependency>
+
+  </dependencies>  
+</project>
